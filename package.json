@@ -1,0 +1,33 @@
+{
+  "name": "api-node-express",
+  "version": "1.0.0",
+  "description": "API node com Framework express",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeaneLiro/api-node-express.git"
+  },
+  "keywords": [
+    "api",
+    "node.",
+    "javascript",
+    "mysql",
+    "express",
+    "mvc"
+  ],
+  "author": "Jeane Liro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JeaneLiro/api-node-express/issues"
+  },
+  "homepage": "https://github.com/JeaneLiro/api-node-express#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
