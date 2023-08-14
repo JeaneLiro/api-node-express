@@ -8,7 +8,7 @@ import productRouter from './routes/productRouter.js'
 const api = express()
 
 api.get('/', (req, res) => {
-    res.json({message: "Bem-vindo a nossa API"})
+    res.json({message: "Bem-vindo a minha API"})
 })
 
 api.use('/user', userRouter)
