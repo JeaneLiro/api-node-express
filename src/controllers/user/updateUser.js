@@ -1,4 +1,4 @@
-const putUser = (req, res) => {
+const updateUser = (req, res) => {
     res.json({message: "metodo put"})
 }
 
