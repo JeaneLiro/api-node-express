@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 28-Ago-2023 às 22:50
+-- Tempo de geração: 28-Ago-2023 às 22:49
 -- Versão do servidor: 10.4.22-MariaDB
 -- versão do PHP: 8.0.13
 
@@ -39,9 +39,9 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `pass`) VALUES
-(1, 'Jeane Liro', 'jeanelirosantos@gmail.com', '123456'),
-(2, 'Carlos Yuri Benedito', 'Beneditinhojs@gmail.com', '12345678'),
-(3, 'Felipe Bezerra', 'bezerrafelipe@gmail.com', '987654');
+(1, 'Renan Cavichi', 'renancavichi@gmail.com', '123123'),
+(2, 'Maria', 'maria@gmail.com', '123123'),
+(3, 'João', 'joao@gmail.com', '123123');
 
 --
 -- Índices para tabelas despejadas

@@ -1,9 +1,7 @@
 import mysql from 'mysql2/promise'
-import {DB_HOST, DB_PASS, DB_USER, DB_NAME} from '../config.js'
+import {DB_HOST, DB_USER, DB_PASS, DB_NAME} from '../config.js'
 
-// Poll controla os acessos/varias pessoas mechendo ao mesmo tempo ent o pool abre varias conexões
-
-const pool = mysql.creatPool({
+const pool = mysql.createPool({
     host: DB_HOST,
     user: DB_USER,
     password: DB_PASS,
@@ -11,7 +9,6 @@ const pool = mysql.creatPool({
     waitForConnections: true,
     connectionLimit: 10,
     queueLimit: 0
-
 })
 
-export default pool 
+export default pool
